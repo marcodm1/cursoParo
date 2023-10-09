@@ -1,0 +1,63 @@
+table {
+    border: solid rgb(6, 150, 6) 10px;
+    background-color: rgb(183, 230, 176);
+    max-width: 20%;
+    margin: 0 auto;
+}
+
+td {
+    border: solid green 1px;
+    /* padding: 5px; */
+    width: 96%;
+}
+
+img {
+    max-width: 70px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* --------------------- clases --------------------- */
+
+.td1-1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.td1-2 {
+    text-align: center;
+}
+
+.td2-1 {
+    text-align: right;
+}
+
+.inputStgo {
+    width: 30px;
+}
+
+.inputDel {
+    width: 40px;
+}
+
+/* .td3-4 {
+    display: flex;
+} */
+
+.inputRut1 {
+    width: 60%;
+}
+.inputRut2 {
+    width: 22%;
+}
+
+.selectComuna, .selectCiudad {
+    width: 80%;
+}
+
+.td6-1 {
+    text-align: center;
+}

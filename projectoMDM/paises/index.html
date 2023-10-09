@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgba(255, 228, 196, 0.685);     
+        width: 300px;   
+        margin: auto;
+        border: solid black 5px;
+        margin-top: 40px;
+        padding: 0px 20px 3px 20px;
+    }
+
+    h6 {
+        margin-bottom: 0px;
+    }
+
+    div {
+        max-width: 300px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .icono {
+        max-width: 20px;
+    }
+
+    .imgLugar {
+        max-width: 200px;
+    }
+
+    .divVisitados {
+        background-color: rgb(92, 167, 92); 
+        border: rgb(35, 104, 52) solid 2px;
+    }
+
+    .divPorVisitar {
+        background-color: rgb(100, 92, 167); 
+        border: rgb(35, 36, 104) solid 2px;
+    }
+
+</style>
+<body>
+    <!-- header que contiene el encabezado de primer nivel -->
+    <header>
+        <h1>
+            Ejercicio completo
+        </h1>
+    </header>
+    <!-- Main es el cuerpo de la página -->
+    <main>
+        <h2>Lista de los países visitados</h2>
+        <div class="divVisitados">
+            <!-- Lista ordenada que contiene los países visitados -->
+            <ol>
+                <!-- si quisiese poner que lo abra en otra pestaña, target="" -->
+                <li> España <a href="paisesVisitados/españa.html"><img class="icono" src="img/visitados/espana.png" alt="bandera de españa" title="bandera de españa">
+                </a></li>
+                <li> Alemania <a href="paisesVisitados/alemania.html"><img class="icono" src="img/visitados/alemania.png" alt="bandera de alemania" title="bandera de alemania"></a></li>
+                <li> Francia <a href="paisesVisitados/francia.html"><img class="icono" src="img/visitados/francia.png" alt="bandera de francia" title="bandera de francia"></a></li>
+                <li> Sudáfrica <a href="paisesVisitados/sudáfrica.html"><img class="icono" src="img/visitados/sudafrica.png" alt="bandera de sudafrica" title="bandera de sudafrica"></a></li>
+            </ol>
+        </div>
+        <h2>Lista de los países por visitar</h2>
+        <div class="divPorVisitar">
+            <!-- Lista desordenada que contiene los países por visitar -->
+            <ul>
+                <li> Países bajos <a href="paisesPorVisitar/amsterdam.html"><img class="icono" src="img/porVisitar/amsterdam.png" alt="bandera de amsterdam" title="bandera de amsterdam"></a></li>
+                <li> Argentina <a href="paisesPorVisitar/argentina.html"><img class="icono" src="img/porVisitar/argentina.png" alt="bandera de argentina" title="bandera de argentina"></a></li>
+                <li> China <a href="paisesPorVisitar/china.html"><img class="icono" src="img/porVisitar/china.png" alt="bandera de china" title="bandera de china"></a></li>
+                <li> Japón <a href="paisesPorVisitar/japon.html"><img class="icono" src="img/porVisitar/japon.png" alt="bandera de japon" title="bandera de japon"></a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <h6>
+            Página programada por Marco Domínguez
+        </h6>
+    </footer>
+</body>
+</html>

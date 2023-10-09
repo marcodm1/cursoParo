@@ -1,0 +1,189 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 5px 3px 4px rgba(0, 0, 0, 5);
+    font-weight: bold;
+}
+
+body {
+    /* background-color: rgb(219, 171, 82); */
+    background: radial-gradient(circle, #6dddd4, #e4842a);
+    /* background: linear-gradient(tao top, #d3a45d, #e78121); */
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+td {
+    /* border: solid black 1px; */
+    padding-left: 35px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+header {
+    display: flex;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center; /* Alinea el contenido del footer horizontalmente al centro */
+    position: absolute; /* Cambia la posición a absoluta */
+    bottom: 0; /* Lo coloca en la parte inferior del divPrincipal */
+    left: 0; /* Lo coloca en la esquina izquierda del divPrincipal */
+    right: 0; /* Lo coloca en la esquina derecha del divPrincipal */
+    margin: 0 auto; /* Centra horizontalmente el footer en su contenedor */
+    padding: 15px; /* Añade un espaciado interior al footer si es necesario */
+}
+
+li {
+    padding: 2px;
+}
+
+nav {
+    margin-top: 8%;
+}
+
+table {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    /* background-color: white; */
+}
+
+/* ---------- clases ------------- */
+.divMain {
+    background-image: url(../img/animalesFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* backdrop-filter: blur(15px); */
+    /* background-color: rgb(236, 199, 129); */
+    width: 50%;
+    margin: 0 auto;
+    border: solid black 3px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 97.7vh;
+    font-size: 30px;
+}
+
+.flechaInicioIMG {
+    margin: 20px;
+    margin-top: 15px;
+}
+
+.indice {
+    text-align: center;
+}
+
+.introduccion {
+    text-align: center;
+}
+
+.paginacion {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+
+.flechaInicioIMG {
+    max-width: 60px;
+}
+
+.imgLink {
+    max-width: 80px;
+}
+
+.clickInformacion {
+    text-align: left;
+}
+
+/* ---------- Hovers --------------*/
+.flechaInicioIMG:hover {
+    transform: scale(2);
+    transition: transform 0.8s ease;
+}
+
+.imgLink:hover {
+    /* background: linear-gradient(to top, #d3a45d, #e78121); */
+    transform: scale(2);
+    transition: transform 0.8s ease;
+    border-radius: 10px;
+}
+
+/* li:hover {
+    background-color: #e4842a;
+    border-radius: 10px;
+} */
+
+.clickInformacion:hover {
+    background-color: #e4842a;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 15px;
+}
+
+/* ------------GATOS -------------- */
+
+.divMainGato {
+    background-image: url(../img/gatoFondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    margin: 0 auto;
+    border: solid black 3px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 97.7vh;
+    font-size: 30px;
+}
+
+.divMainIguana {
+    background-image: url(../img/iguanaFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    margin: 0 auto;
+    border: solid black 3px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 97.7vh;
+    font-size: 30px;
+}
+
+.divMainPerro {
+    background-image: url(../img/perroFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    margin: 0 auto;
+    border: solid black 3px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 97.7vh;
+    font-size: 30px;
+}

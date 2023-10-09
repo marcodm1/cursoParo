@@ -1,0 +1,9 @@
+body {
+    background-color: gray;
+}
+
+.sumarRestar {
+    background-color: rgb(240, 142, 62);
+    border: solid black 2px;
+    padding: 5px;
+}
