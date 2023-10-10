@@ -1,3 +1,8 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -11,13 +16,12 @@ body {
     background: radial-gradient(circle, #6dddd4, #e4842a);
     /* background: linear-gradient(tao top, #d3a45d, #e78121); */
     background-repeat: no-repeat;
-    
 }
 
 h1 {
     margin: 0;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 td {
@@ -34,7 +38,7 @@ a {
 
 header {
     display: flex;
-    margin-top: 15px;
+    justify-content: space-evenly;
 }
 
 ul {
@@ -58,7 +62,7 @@ li {
 }
 
 nav {
-    margin-top: 8%;
+    margin-top: -20px;
 }
 
 table {
@@ -81,7 +85,7 @@ table {
     border-radius: 15px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     height: 97.7vh;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .flechaInicioIMG {
@@ -115,6 +119,7 @@ table {
 .clickInformacion {
     text-align: left;
 }
+/* ---------- Fin clases ----------- */
 
 /* ---------- Hovers --------------*/
 .flechaInicioIMG:hover {
@@ -138,6 +143,12 @@ table {
     background-color: #e4842a;
     border-radius: 10px;
 }
+
+.botonSuscribirse:hover {
+    cursor: pointer;
+}
+
+/* ---------- Fin hovers ----------- */
 
 .container {
     padding: 15px;
@@ -189,4 +200,57 @@ table {
 
 .botonSuscribirse {
     background-color: transparent;
+    border: none;
+}
+
+/* ------------------formulario--------------------------- */
+.formSuscripcion {
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.tablaSuscripcion {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.tablaSuscripcion td {
+    padding: 0px;
+}
+
+.tablaSuscripcion input {
+    max-width: 100%;
+}
+
+.formSuscripcion input, .formSuscripcion select {
+    font-weight: normal;
+    -webkit-text-stroke: 0px black;
+    color: black;
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password], input[type=date], select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    font-size: 30px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
 }

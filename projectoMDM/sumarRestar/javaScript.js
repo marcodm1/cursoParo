@@ -1,20 +1,20 @@
 const fnSumar = (() => {
-    let suma = 0;
+    let resultado = 0;
     const sumar = () => {
-        suma = document.getElementById("resultado").textContent;
-        suma++;
-        document.getElementById("resultado").textContent = suma;
+        resultado = document.getElementById("resultado").textContent;
+        resultado ++;
+        document.getElementById("resultado").textContent = resultado;
     };
 
     return sumar;
 })();
  
 const fnRestar = (() => {
-    let resta = 0;
+    let resultado = 0;
     const restar = () => {
-        resta = document.getElementById("resultado").textContent;
-        resta--;
-        document.getElementById("resultado").textContent = resta;
+        resultado = document.getElementById("resultado").textContent;
+        resultado--;
+        document.getElementById("resultado").textContent = resultado;
     };
 
     return restar;

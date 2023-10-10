@@ -5,5 +5,17 @@ body {
 .sumarRestar {
     background-color: rgb(240, 142, 62);
     border: solid black 2px;
-    padding: 5px;
+    padding: 15px;
+}
+
+#miFormulario {
+    background-color: rgb(102, 173, 149);
+    border: solid black 2px;
+    padding: 15px;
+}
+
+#resultados {
+    background-color: rgb(102, 173, 102);
+    border: solid black 2px;
+    padding: 15px;
 }
