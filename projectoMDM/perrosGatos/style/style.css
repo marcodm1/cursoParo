@@ -144,8 +144,12 @@ table {
     border-radius: 10px;
 }
 
-.botonSuscribirse:hover {
+/* .botonSuscribirse:hover {
     cursor: pointer;
+} */
+
+.imgRotativa:hover {
+    content: url(../img/london.jpg);
 }
 
 /* ---------- Fin hovers ----------- */
@@ -153,6 +157,8 @@ table {
 .container {
     padding: 15px;
 }
+
+
 
 /* ------------GATOS -------------- */
 
@@ -202,6 +208,21 @@ table {
     background-color: transparent;
     border: none;
 }
+
+.inicioRotativa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgRotativa {
+    max-width: 300px;
+}
+
+.imgIrArriba {
+    max-width: 50px;
+}
+
 
 /* ------------------formulario--------------------------- */
 .formSuscripcion {
