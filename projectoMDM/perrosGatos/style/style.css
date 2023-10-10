@@ -64,7 +64,6 @@ nav {
 table {
     max-width: 80%;
     margin: 0 auto;
-    margin-top: 5%;
     /* background-color: white; */
 }
 
@@ -82,7 +81,7 @@ table {
     border-radius: 15px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     height: 97.7vh;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .flechaInicioIMG {
@@ -157,7 +156,7 @@ table {
     border-radius: 15px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     height: 97.7vh;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .divMainIguana {
@@ -171,7 +170,7 @@ table {
     border-radius: 15px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     height: 97.7vh;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .divMainPerro {
@@ -185,5 +184,9 @@ table {
     border-radius: 15px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     height: 97.7vh;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.botonSuscribirse {
+    background-color: transparent;
 }
