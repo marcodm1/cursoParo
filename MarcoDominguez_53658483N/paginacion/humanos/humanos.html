@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- head: se utiliza para contener información sobre el documento HTML como enlaces a archivos externos etc... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css"> <!-- link: elemento de enlace por ejemplo para otros archivos -->
+    <title>Exámen Marco Domínguez</title>
+</head>
+<body> <!-- body: es el cuerpo de la página -->
+    <header id="inicio"> <!-- header: sección de una página web que contiene elementos que se muestran en la parte superior de la página, como el logotipo, título principal etc -->
+        <h1 class="tituloPrincipal"> <!-- h1: es el encabezado de primer nivel -->
+            Página de los humanos
+        </h1>
+    </header>
+    <!-- creo un div general que englobe toda mi página para poder dentrarlo con facilidad -->
+    <div class="divGeneral"> 
+        <h2> <!-- h2: Encabezado de segundo nivel -->
+            Información sobre los humanos
+        </h2>
+        <!-- nav1 contiene las imágenes con los links a otras páginas de la web -->
+        <nav class="nav1"> <!-- nav: sección de la página web donde se define los enlaces de navegación  -->
+            <ul> 
+                <li>
+                    <a href="../../index.html"><img src="../../img/volver.png" alt="volver"></a>
+                </li>
+                <li >
+                    <a href="../animales/animales.html"><img src="../../img/ganado.png" alt="animales"></a>
+                </li>
+                <li>
+                    <a href="humanos.html"><img src="../../img/personas.png" alt="personas"></a>
+                </li>
+                <li>
+                    <a href="../suscribirse/suscribirse.html"><img src="../../img/suscribir.png" alt="formulario"></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- nav2 contiene los links a wikipedia abriendolo como pestaña nueva -->
+        <nav class="nav2">
+            <ol> 
+                <!-- ol: order list, lista ordenada. Los li en las listas ol hay de tipo: 
+                    1 = enumeración numérica que es la que viene por defecto
+                    a = enumeración de letras en minúsculas
+                    A = enumeración de letras en mayúsculas
+                    i = enumeración de números romanos en minúsculas
+                    I = enumeración de números romanos en mayúsculas
+                    none = no pone ningún símbolo
+                -->
+                <li type="I">
+                    <a href="https://es.wikipedia.org/wiki/Humanidad_(desambiguaci%C3%B3n)" target="_blank">Para más información sobre los humanos<img src="../../img/wikipedia.png" alt="wikipedia"></a>
+                </li>
+            </ol>
+        </nav>
+        <main> <!-- main: etiqueta utilizada para marcar el contenido principal o central de una página web -->
+            <h2>
+                Reglas del juego
+            </h2>
+            <!-- párrafo para añadir una lista ordenada de los pasos del juego -->
+            <p>
+                <ol>
+                    <li>
+                        Mirar la primera columna, que es una pista.
+                    </li>
+                    <li>
+                        Mirar la segunda columna, que es otra pista.
+                    </li>
+                    <li>
+                        Intentar adivinar el continente al que pertenece.
+                    </li>
+                    <li>
+                        Poner el cursor en la interrogación para ver si se ha acertado.
+                    </li>
+                </ol>
+            </p>
+            <table class="tablaJuego">
+                <tr>
+                    <caption> <!-- caption: pone un !título" a la tabla que va por fuera -->
+                        El juego de la adivinanza
+                    </caption>
+                </tr>
+                <tr>
+                    <th colspan="3"> <!-- colspan: en la que puedes indicar el numero de columnas que ocupa -->
+                        Juego
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Columna 1
+                    </th>
+                    <th>
+                        Columna 2
+                    </th>
+                    <th>
+                        Columna 3
+                    </th>
+                </tr>
+                    <tr>
+                        <td>
+                            Son negritos
+                        </td>
+                        <td>
+                            Son atléticos
+                        </td>
+                        <td>
+                            <img class="adivinar4" src="../../img/pregunta.png" alt="cerdo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Son blanquitos
+                        </td>
+                        <td>
+                            Hablan inglés
+                        </td>
+                        <td>
+                            <img class="adivinar5" src="../../img/pregunta.png" alt="cerdo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Son blanquitos
+                        </td>
+                        <td>
+                            Tienen los ojos finos
+                        </td>
+                        <td>
+                            <img class="adivinar6" src="../../img/pregunta.png" alt="cerdo">
+                        </td>
+                    </tr>
+               </table>
+        </main>
+        <!-- footer: define la sección de una página web que generalmente contiene información que se encuentra en la parte inferior de la página -->
+        <footer>
+            <a href="#inicio"><img src="../../img/irArriba.png"></a>
+            <h6> <!-- h6: se usa normalmente en los footer para que el tamaño sea pequeño y en negrita, es un encabezado de nivel 6, que es el más pequño -->
+                Exámen creado por Marco domínguez Mateos el dia 11/10/2023
+            </h6>
+        </footer>
+    </div>
+</body>
+</html>

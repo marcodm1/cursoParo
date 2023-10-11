@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- head: se utiliza para contener información sobre el documento HTML como enlaces a archivos externos etc... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css"> <!-- link: elemento de enlace por ejemplo para otros archivos -->
+    <title>Exámen Marco Domínguez</title>
+</head>
+<body> <!-- body: es el cuerpo de la página -->
+    <header id="inicio"> <!-- header: sección de una página web que contiene elementos que se muestran en la parte superior de la página, como el logotipo, título principal etc -->
+        <h1 class="tituloPrincipal"> <!-- h1: es el encabezado de primer nivel -->
+            Página principal del exámen
+        </h1>
+    </header>
+    <!-- creo un div general que englobe toda mi página para poder dentrarlo con facilidad -->
+    <div class="divGeneral"> 
+        <h2> <!-- h2: Encabezado de segundo nivel -->
+            Información sobre los animales y los humanos
+        </h2>
+        <!-- nav1 contiene las imágenes con los links a otras páginas de la web -->
+        <nav class="nav1"> <!-- nav: sección de la página web donde se define los enlaces de navegación  -->
+            <ul> 
+                <!-- ul: unorder list, es una etiqueta para crear una lista desordenada. Los li en las listas ul hay de tipo:
+                    disk = es un círculo relleno que es el que viene por defecto
+                    circle = es un círculo no relleno
+                    square = es un cuadrado relleno
+                    none = no pone ningún símbolo
+                -->
+                <!-- en este ejercicio no voy a poner ningún símbolo por estética personal como se ha hablado en el exámen que estaba permitido-->
+                <!-- li: list item, crea el elemento de la lista -->
+                <li>
+                    <!-- a: es una etiqueta para crear enlaces con otras páginas. En estos ejemplos vamos a añadir unas imágenes para que sean el vínculo con otras páginas
+                    dentro de la etiqueta img tenemos un atributo alt que sirve para poner un texto alternativo-->
+                    <a href="index.html"><img src="img/volver.png" alt="volver"></a>
+                </li>
+                <li >
+                    <a href="paginacion/animales/animales.html"><img src="img/ganado.png" alt="animales"></a>
+                </li>
+                <li>
+                    <a href="paginacion/humanos/humanos.html"><img src="img/personas.png" alt="personas"></a>
+                </li>
+                <li>
+                    <a href="paginacion/suscribirse/suscribirse.html"><img src="img/suscribir.png" alt="formulario"></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- nav2 contiene los links a wikipedia abriendolo como pestaña nueva -->
+        <nav class="nav2">
+            <ol> 
+                <!-- ol: order list, lista ordenada. Los li en las listas ol hay de tipo: 
+                    1 = enumeración numérica que es la que viene por defecto
+                    a = enumeración de letras en minúsculas
+                    A = enumeración de letras en mayúsculas
+                    i = enumeración de números romanos en minúsculas
+                    I = enumeración de números romanos en mayúsculas
+                    none = no pone ningún símbolo
+                -->
+                <li type="a">
+                    <a href="https://es.wikipedia.org/wiki/Animalia" target="_blank">Para más información sobre los animales <img src="img/wikipedia.png" alt="wikipedia"></a>
+                </li>
+                <li type="I">
+                    <a href="https://es.wikipedia.org/wiki/Humanidad_(desambiguaci%C3%B3n)" target="_blank">Para más información sobre los humanos<img src="img/wikipedia.png" alt="wikipedia"></a>
+                </li>
+            </ol>
+        </nav>
+        <main> <!-- main: etiqueta utilizada para marcar el contenido principal o central de una página web -->
+            
+            <p> <!-- p: párrafo -->
+                La página está compuesta por <span>2 apartados.</span> <!-- span: es para poder seleccionar una parte del párrafo -->
+            </p>
+            <p>
+                <strong>El primero tiene 4 imágenes grandes</strong>
+                <!-- ol que contiene una lista ordenada con los puntos -->
+                <ol>
+                    <li type="1">
+                        img1: <del>Para nada</del> Para recargar la página. <!-- del: para tachar con una línea parte del texto -->
+                    </li>
+                    <li type="a">
+                        <ins>img2:</ins> Los animales, te lleva a una página nueva con mayor información. <!-- ins: para subrallar parte del texto -->
+                    </li>
+                    <li type="A">
+                        img3: Los humanos, te lleva a una página nueva con mayor información.
+                    </li>
+                    <li type="I">
+                        img4: Formulario, que es una página para rellenar unos datos para suscribirte.
+                    </li>
+                </ol>
+            </p>
+            <p>
+                <strong>El segundo tiene 2 links</strong>
+                <!-- una lista desordenada que contiene los enlaces a wikipedia -->
+                <ul>
+                    <li type="square">
+                        link1: Te lleva a wikipedia para más información sobre los animales
+                    </li>
+                    <li type="square">
+                        link2: Te lleva a wikipedia para más información sobre los humanos
+                    </li>                    
+                </ul>
+            </p>
+            <dl> <!-- dl: definition list, organizar términos y sus definiciones asociadas -->
+                <dt><strong>Pulsando en las imágenes puede encontrar información relacionada con la imágen</strong></dt> <!-- dt: Término de definición -->
+                <dd>Como características curiosidades etc</dd> <!-- dd: definición de término -->
+                
+                <dt><strong>Ir a una nueva página:</strong></dt> <!-- strong: hace que la letra sea en negrita -->
+                <dd>Para aprender más de esa imágen</dd>
+              
+                <dt><strong>Y en los links para más información o la imagen de la W:</strong></dt>
+                <dd>Puede abrir una pestaña nueva directa a wikipedia para aprender más aún</dd>
+              </dl>
+        </main>
+        <!-- footer: define la sección de una página web que generalmente contiene información que se encuentra en la parte inferior de la página -->
+        <footer>
+            <a href="#inicio"><img src="img/irArriba.png"></a>
+            <h6> <!-- h6: se usa normalmente en los footer para que el tamaño sea pequeño y en negrita, es un encabezado de nivel 6, que es el más pequño -->
+                Exámen creado por Marco domínguez Mateos el dia 11/10/2023
+            </h6>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- head: se utiliza para contener información sobre el documento HTML como enlaces a archivos externos etc... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css"> <!-- link: elemento de enlace por ejemplo para otros archivos -->
+    <title>Exámen Marco Domínguez</title>
+</head>
+<body> <!-- body: es el cuerpo de la página -->
+    <header> <!-- header: sección de una página web que contiene elementos que se muestran en la parte superior de la página, como el logotipo, título principal etc -->
+        <h1 class="tituloPrincipal"> <!-- h1: es el encabezado de primer nivel -->
+            Suscribirse
+        </h1>
+    </header>
+    <!-- creo un div general que englobe toda mi página para poder dentrarlo con facilidad -->
+    <div class="divGeneral"> 
+        <h2> <!-- h2: Encabezado de segundo nivel -->
+            Rellene los datos para suscribirse a la web
+        </h2>
+        <main> 
+            <nav class="nav1"> 
+                <!-- ul con las img que son la paginación a las otras páginas de la aplicación -->
+                <ul>
+                    <li>
+                        <a href="../../index.html"><img src="../../img/volver.png" alt="volver"></a>
+                    </li>
+                    <li >
+                        <a href="../../paginacion/animales/animales.html"><img src="../../img/ganado.png" alt="animales"></a>
+                    </li>
+                    <li>
+                        <a href="../../paginacion/humanos/humanos.html"><img src="../../img/personas.png" alt="personas"></a>
+                    </li>
+                    <li>
+                        <a href="suscribirse.html"><img src="../../img/suscribir.png" alt="formulario"></a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="formSuscripcion" action="lt.php" target="_blank">
+                <!-- una tabla con los campos para rellenar y suscribirse -->
+                <!-- contiene los type:
+                    text: que es para poder escribir texto
+                    date: para indicar una fecha
+                    password: para que al escribir la contraseña salgan puntos y no se vea
+                    radio: para elegir una de las opciones
+                    checkbox: para seleccionar o no.
+                    textarea: para añadir un comentario extra.
+                    select: que contiene las (option) para seleccionar de uan lista el país.
+                    button: para enviar el formulario
+                -->
+                <table class="tablaSuscripcion">
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre*</label>
+                            <input type="text" class="nombre" id="nombre" placeholder="Nombre" required>
+                        </td>
+                        <td>
+                            <label for="apellido">Apellido*</label>
+                            <input type="text" class="nombre" id="apellido" placeholder="apellido" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fechaNacimiento">Fecha de nacimiento*</label>
+                            <input type="date" class="nombre" id="fechaNacimiento" required>
+                        </td>
+                        <td>
+                            <label for="correo">Correo electrónico*</label>
+                            <input type="text" class="nombre" id="correo" placeholder="correo electrónico" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="contraseña">Contraseña*</label>
+                            <input type="password" class="nombre" id="pass" placeholder="contraseña" required>
+                        </td>
+                        <td>
+                            <label for="contraseña">Repetir contraseña*</label>
+                            <input type="password" class="nombre" id="pass2" placeholder="repetir contraseña" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Género</legend>
+                                <label><input type="radio" id="inscribirseBoletin">Masculino</label>
+                                <label><input type="radio" id="inscribirseBoletin">Femenino</label>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <label for="pais">País*</label>
+                            <select id="pais" name="pais" required>
+                                <option value="0" selected>-</option>
+                                <option value="1">España</option>
+                                <option value="2">Portugal</option>
+                                <option value="3">Francia</option>
+                                <option value="4">Alemania</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label><input type="checkbox" name="suscribirse" value="si"> Suscribirse a nuestro boletín</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="comentarios" style="vertical-align: top;">Comentarios:</label>
+                            <textarea id="comentarios" name="comentarios" maxlength="200" rows="5" cols="100%"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <button class="botonEnviar" type="submit">Enviar</button>
+            </form>     
+        </main>
+        <!-- footer: define la sección de una página web que generalmente contiene información que se encuentra en la parte inferior de la página -->
+        <footer>
+            <h6> <!-- h6: se usa normalmente en los footer para que el tamaño sea pequeño y en negrita, es un encabezado de nivel 6, que es el más pequño -->
+                Exámen creado por Marco domínguez Mateos el dia 11/10/2023
+            </h6>
+        </footer>
+    </div>
+</body>
+</html>
