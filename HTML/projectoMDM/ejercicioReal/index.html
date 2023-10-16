@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Ejemplo</h1>
+    
+    <form class="miFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" class="email" name="email" required><br><br>
+        
+        <!-- Agregamos el atributo onclick directamente en el botón -->
+        <button type="button" class="enviarBoton" onclick="enviarFormulario()">Enviar</button>
+    </form>
+    
+    <!-- Agregamos un elemento <div> para mostrar el resultado -->
+    <div class="resultado"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

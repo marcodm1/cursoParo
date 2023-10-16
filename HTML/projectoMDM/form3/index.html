@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form3</title>
+</head>
+<body>
+    <main>
+        <div class="registro">
+            <h1>Registro trabajadores</h1>
+        </div>
+        <form action="ejemplo.php" method="post"> 
+            <table>
+                <tr>
+                    <td>
+                        <label for="rut">Rut:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="rut" name="rut" placeholder="Sin puntos ni guión">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nombre" name="nombre" placeholder="Sin puntos ni guión">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="apellidoP">Apellido Paterno:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="apellidoP" name="apellidoP" placeholder="Sin puntos ni guión">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="apellidoM">Apellido materno:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="apellidoM" name="apellidoM" placeholder="Sin puntos ni guión">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="c">Sexo:</label>
+                    </td>
+                    <td>
+                        <input type="radio">Masculino
+                        <input type="radio">Femenino
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="c">Nivel de estudio:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="f" id="1">No tiene <br>
+                        <input type="checkbox" name="f" id="2">No tiene <br>
+                        <input type="checkbox" name="f" id="3">No tiene
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="df">Ciudad de nacimiento</label>
+                    </td>
+                    <td>
+                        <select name="selectLugar" id="jj">
+                            <option value="i">-</option>
+                            <option value="a">Madrid</option>
+                            <option value="b">Barcelona</option>
+                            <option value="c">Sevilla</option>
+                            <option value="d">Valencia</option>
+                            <option value="f">Málaga</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="df">Currículum</label>
+                    </td>
+                    <td>
+                        <input type="file" name="d" id="d">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="df">Currículum</label>
+                    </td>
+                    <td>
+                        <input type="file" name="d" id="d">
+                    </td>
+                </tr>
+            </table>    
+        </form>
+        <div class="registro">
+            <button>Registrar trabajador</button>
+        </div>
+    </main>
+    
+</body>
+</html>

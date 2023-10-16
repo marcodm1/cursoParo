@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>formularios</h1>
+    </header>
+    <main>
+        <form action="lt.php" target="_blank">
+            <!-- Mis datos personales -->
+            <div class="divMiDatosPersonales">
+                <div class="miDatosPersonales">
+                    <legend>Mis datos personales</legend>
+                </div>
+                <div class="labelEstadoCivil">
+                    <label>
+                        Título
+                        <input type="radio" name="estado">Er.
+                        <input type="radio" name="estado">Era.
+                    </label>
+                </div>
+                <div class="nombreApellido">
+                    <div class="nombre">
+                        <label for="#">Nombre*</label>
+                        <input type="text" class="inputNombre" name="nombrecompleto" placeholder="Nombre...">
+                    </div>
+                    <div class="apellido">
+                        <legend>Apellido</legend>
+                        <input type="text" name="nombrecompleto" placeholder="Apellido...">
+                    </div>
+                </div>
+                <div class="datosPersonales">
+                    <div>
+                        <label for="#">E-mail*</label>
+                        <input type="text" name="nombrecompleto" placeholder="email...">
+                    </div>
+                    <div>
+                        <label for="#">Contraseña*</label>
+                        <input type="password" name="nombrecompleto" placeholder="contraseña...">
+                    </div>
+                    <div>
+                        <label>Fecha de nacimiento*</label>
+                        <input type="date" name="fechaNacimiento">
+                    </div>
+                </div>
+                <div>
+                    <input type="checkbox" name="inscribirseBoletin">
+                    <label for="inscribirseBoletin">Inscribirse en nuestro boletín de noticias y promociones.</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="inscribirseBoletin">
+                    <label for="inscribirseBoletin">Deseo recibir ofertas personalizadas basado en mi historial de compras.</label>
+                </div>
+
+            </div>
+
+            <!-- Mi dirección -->
+            <div class="divMiDireccion">
+                <div class="miDireccion">
+                    <legend>Mis datos personales</legend>
+                </div>
+                <div class="nombreApellido">
+                    <div class="nombre">
+                        <label for="#">Nombre*</label>
+                        <input type="text" class="inputNombre" name="nombrecompleto" placeholder="Nombre...">
+                    </div>
+                    <div class="apellido">
+                        <label for="#">Apellido*</label>
+                        <input type="text" name="nombrecompleto" placeholder="Apellido...">
+                    </div>
+                </div>
+                <div class="datosPersonales">
+                    <div>
+                        <label for="#">Empresa*</label>
+                        <input type="text" name="nombrecompleto" placeholder="empresa...">
+                    </div>
+                </div>
+                <div class="nombreApellido">
+                    <div class="nombre">
+                        <label for="#">Dirección*</label>
+                        <input type="text" class="inputNombre" name="nombrecompleto" placeholder="Dirección...">
+                    </div>
+                    <div class="apellido">
+                        <label for="#">Dirección 2*</label>
+                        <input type="text" name="nombrecompleto" placeholder="Apellido...">
+                    </div>
+                </div>
+                <div class="nombreApellido">
+                    <div class="nombre">
+                        <label for="#">Código postal*</label>
+                        <input type="text" class="inputNombre" name="nombrecompleto" placeholder="Código postal...">
+                    </div>
+                    <div class="apellido">
+                        <label for="#">Ciudad*</label>
+                        <input type="text" name="nombrecompleto" placeholder="Ciudad...">
+                    </div>
+                </div>
+                <div class="datosPersonales">
+                    <div>
+                        <label for="#">País*</label>
+                        <select>
+                            <option value="a">España</option>
+                            <option value="a">Portugal</option>
+                            <option value="a">Francia</option>
+                            <option value="a">Alemania</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="datosPersonales">
+                    <div>
+                        <label for="#">Provincia*</label>
+                        <select>
+                            <option value="a">Madrid</option>
+                            <option value="a">Barcelona</option>
+                            <option value="a">Murcia</option>
+                            <option value="a">Asturias</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="datosPersonales">
+                    <div>
+                        <label for="#">Información adicional*</label>
+                        <input type="text" name="nombrecompleto" placeholder="Información adicional...">
+                    </div>
+                </div>
+            </div>
+            <input class="botonEnviar" type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <h6>Página creada por Marco Domínguez</h6>
+    </footer>
+</body>
+</html>
