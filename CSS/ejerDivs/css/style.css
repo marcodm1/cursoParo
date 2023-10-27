@@ -1,0 +1,135 @@
+/* ---------------- GLOBALS -------------- */
+
+@font-face {
+    font-family: letraCursiva;
+    src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: letraCursiva;
+    font-size: 25px;
+}
+body {
+    padding: 10px;
+}
+div {
+    border: solid black 1px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 1px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+ol, ul {
+    list-style-position: inside;
+}
+
+/* ---------------- FIN GLOBALS ---------- */
+
+/* ---------------- CLASES --------------- */
+
+.encabezado {
+    border: none;
+    text-transform: uppercase;
+}
+
+.divMain {
+    border: solid gray 3px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.linea1 {
+    margin: 4px;
+}
+
+.linea1, .linea4, .linea5 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.linea2, .linea3, .linea5, .linea6, .linea8, .linea9{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+
+.linea2 div, .linea3 div, .linea5 div, .linea6 div {
+    width: 20.5%;
+    padding: 3px;
+    margin: 1px 2px 1px 2px;
+}
+
+.linea2 div {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.linea2 :first-child, .linea3 :first-child {
+    margin-left: 1px;
+    margin-left: 1px;
+}
+
+.linea2 :last-child, .linea3 :last-child {
+    margin-right: 1px;
+}
+
+.linea3 div {
+    padding: 15px;
+}
+
+.linea4 {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.linea5, .linea6 {
+    margin-left: 1.5px;
+    margin-right: 2px;
+}
+.linea7 {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin: 4;
+    font-weight: bold;
+    text-align: center;
+}
+
+.linea8, .linea9 {
+    margin-left: 1px;
+    margin-right: 1.5px;
+}
+
+.linea8 div, .linea9 div {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.linea8 div, .linea9 div{
+    width: 100%;
+}
+
+.linea9 div {
+    text-align: start;
+    padding-left: 5%;
+}
+
+.linea8 {
+    font-weight: bold;
+}
+
+.linea8 :first-child, .linea9 :first-child {
+    margin-right: 1px;
+}

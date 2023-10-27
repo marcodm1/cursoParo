@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.padre {
+    display: grid;
+    border: solid green 3px;
+    border-radius: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.padre:hover {
+    transition: 1s ease;
+    background-color: green;
+    border: solid black 3px;
+    box-shadow: 10px 10px 10px;
+}
+
+.padre div {
+    padding: 10px;
+    margin: 5px;
+    border: solid green 2px;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+
+.padre:hover div {
+    transition: 1s ease;
+    background-color: rgb(22, 176, 22);
+    color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.padre div:hover {
+    transition: 0.5s ease;
+    box-shadow: 0 0 10px black;
+}
+

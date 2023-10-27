@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: caca;
+    src: url(../fonts/static/DancingScript-Medium.ttf);
+}
+html {
+    font-family: caca;
+}
+h1 {
+    /* font-family: 'Pixelify Sans', sans-serif; */
+}
+
+h2 {
+    /* font-family: caca; */
+}
+
+h6 {
+    /* font-family: caca; */
+}
+
+
+.p1 {
+    /* font-family: 'Noto Sans NKo Unjoined', sans-serif; */
+    /* font-family: 'Rubik', sans-serif;    */
+}
+
+.p2 {
+    /* font-family: caca; */
+}

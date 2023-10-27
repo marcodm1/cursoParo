@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Ejercicio con cajas</title>
+    </head>
+    <body>
+        <!-- Creo un contenedor donde voy a meter todo el contenido del ejercicio
+        Inicio del contenedor General -->
+        <div id="general">
+            <!-- Inicio de la cabecera de mi página -->
+            <header id="header">
+                <h1>Ejercicio con HTML y CSS - Víctor Luis</h1>
+                <!-- Creamos el menú de navegación -->
+                <nav id="menu">
+                    <!-- Creo unalista desordenada para crear el menú horizontal -->
+                    <ul>
+                        <!-- Creo 4 elementos para el menú -->
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Articulos</a></li>
+                        <li><a href="#">Categorías</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </nav>
+                <!-- Fin de la cabecera de mi página -->
+            </header>
+            <!-- Creo un contenedor para el contenido principal de la página -->
+            <section id="contenido">
+                <h2>
+                    Cajas del contenido principal
+                </h2>
+                <div class="contenido__caja">
+                    <h2>Caja 1</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 2</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 3</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 4</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 5</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 6</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 7</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 8</h2>
+                </div>
+            </section>
+            <!-- La etiqueta aside representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento -->
+            <aside id="lateral">
+                <div class="contenido__caja">
+                    <h2>Elemento de la barra lateral</h2>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+            <!-- Inicio del footer -->
+            <footer id="footer">
+                <!-- Creo un encabezado de sexto nivel -->
+                <h6>Todos los derechos reservados &copy; Víctor Luis Glaría Abril</h6>
+                <!-- Fin del footer -->
+            </footer>
+            <!-- Fin del contenedor General -->
+        </div>
+        <div class="libre">soy una caja aobsoluta</div>
+        <div class="libre libreDos">soy una caja aobsoluta</div>
+        <div class="fijaUno">Soy una caja fixed</div>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/hojas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 80%;
+    margin: 3%;
+}
+
+html, body {
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(to right, transparent, #457205, transparent);
+    border-radius: 15px;
+    margin-bottom: 2%;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    background: linear-gradient(to right, transparent, #ab6515);
+    width: 30%;
+    padding: 1%;
+}
+
+main {
+    background-color:  #ab6515;
+    width: 100%;
+    padding: 10px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(189, 142, 188);
+    /* margin-top: 2%; */
+}
+
+img {
+    max-width: 80px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+nav {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.total {
+    display: flex;
+    margin: auto;
+}
+
+.divMenu {
+    text-align: right;
+}
+
+.hide {
+    background: linear-gradient(to left, transparent, #ab6515);
+}
+
+.uno, .dos, .tres {
+    padding: 5px;
+    display: flex;
+    border: solid #b87f3f 1px;
+}

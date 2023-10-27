@@ -1,0 +1,182 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    /*Elimino los estilos por defecto que tienen algunas etiqueta*/
+    text-decoration: none;
+    /*Establezco la fuente que va a utilizar mi página*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#general
+{
+    width: 1200px;
+    margin: 0px auto; /*Centro el elemento en medio de la página*/
+    border: 1px solid #ccc;
+}
+/*Estilos para la cabecera de la página*/
+#header
+{
+    width: 100%;
+    height: 100px;
+    /*Establezco un color para el fondo del header, utilizando el sistema "rgb"*/
+    background-color: rgb(15, 118, 236);
+    text-align: center;
+    color: white;
+    line-height: 90px;
+}
+#menu
+{
+    background-color: #eeeeee;
+}
+
+/* Vamos a hacer que los elementos de la lista aparezcan de forma horizontal */
+#menu ul li
+{
+    display: block;
+    float: left;
+    /*Añado un borde a mode de separador entre los elementos*/
+    border-right: 1px solid #ccc;
+}
+/* Aplico los estilos a los enlaces que están dentro del menú */
+#menu ul li a
+{
+    /* Hago que el enlace de la lista ocupe todo el ancho del elemento, para que funcione el enlace hacien "click" en cualquier parate del elemento */
+    display: block;
+    /* Aplico un padding a los elementos de la lista para que estos no estén tan juntos */
+    padding: 15px;
+    /* Le doy un color a los enlaces */
+    color: #444;
+}
+/*Voy a utilizar :hover para que los estilos cambien cuando paso el cursor del ratón por encima*/
+#menu ul li:hover
+{
+    /*Voy a utilizar el mismo color que el que tiene la cabecera, pero más oscuro*/
+    background-color: rgb(16,75,143);
+    /*Hago que el cursor del ratón cambie al pasra por encima*/
+    cursor: pointer;
+}
+/*Aplico un estilo a los enlaces dentro de la lista para cuando pase el cursor del ratón por encima del elemento de la lista*/
+#menu ul li:hover a
+{
+    /*Indico que el color del texto va a cambiar cuando pase el cursor por encima*/
+    color: white;
+}
+/*Aplico estilos a la sección de "contenido"*/
+#contenido
+{
+    /*Establezco un ancho del 70%, como dice el enunciado*/
+    /*Cambio el ancho del contenedor para que tanto el lateral, como este queden uno al lado del otro*/
+    width: 69%;
+    float: left;
+}
+/*Aplico estilos a la bara lateral*/
+#lateral
+{
+    /*Aplico un "float:left", igual que al contenedor "contenido" para que estén "en fila" desde la izquierda*/
+    float: left;
+    width: 30%;
+    /*Aplico un borde para que este contenedor sea más visible*/
+    border: 1px solid red;
+    /*Le plico un alto a la barra lateral*/
+    min-height: 500px;
+    /*Centro el contenido de la barra lateral*/
+    text-align: center;
+}
+#contenido .contenido__caja
+{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border: 5px solid blue;
+    color: white;
+    float: left;
+    margin: 20px;
+    /*Aplico un margen a la izquierda para que los elementos estén más centrados*/
+    margin-left: 40px;
+}
+#contenido > h1
+{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+}
+
+/*Aplico los estilos al footer*/
+footer
+{
+    width: 100%;
+    height: 40px;
+    line-height: 55px;
+    background-color: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
+}
+
+.clearfix
+{
+    float: none;
+    clear: both;
+}
+
+section > h2 {
+    text-shadow: 2px 2px 2px grey;
+}
+
+#contenido .contenido__caja {
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+    border: solid grey 1px;
+}
+
+.contenido__caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido__caja--sombraInterior {
+    box-shadow: 0 0 20px gray;
+}
+
+.libre {
+    border: solid black 1px;
+    background-color: plum;
+    color: darkslategray;
+    width: 100px;
+    font-size: 13px;
+
+    position: absolute;
+    top: 0px;
+    right: 500px;
+    width: 50px;
+    height: 50px;
+}
+
+/* #general {
+    position: relative;
+} */
+
+body {
+    margin: 10px;
+}
+
+.libreUno {
+
+}
+
+.libreDos {
+
+}
+
+.fijaUno {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    border: solid black 1px burlywood;
+    color: seagreen;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+}

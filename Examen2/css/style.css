@@ -1,0 +1,46 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: caca;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+html {
+    font-family: caca;
+}
+
+body {
+    padding: 1%;
+}
+
+nav {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+h1 {
+    color: red;
+    -webkit-text-stroke: 1px black;
+}
+
+
+
+
+
+
+/*
+:nth-child(odd) selecciona todos los elementos impares.
+:nth-child(even) selecciona todos los elementos pares.
+:nth-child(3n+1) selecciona cada tercer elemento, comenzando desde el primer elemento.
+:nth-child(4n) selecciona cada cuarto elemento.
+*/
+/* 
+body {
+    background-image: url(algo.algo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */

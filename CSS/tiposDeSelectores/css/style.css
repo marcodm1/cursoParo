@@ -13,15 +13,26 @@ h1 {
     text-transform: uppercase;
 }
 
-.principal {
-    font-style: italic;
+.spanHtml {
     font-weight: bold;
+}
+
+footer form * {
+    display: block;
+}
+
+input[type=text] {
+    margin-bottom: 15px;
     padding: 10px;
+    width: 300px;
 }
 
-.parrafo0 {
-    color: green;
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: solid black 5px;
+    cursor: pointer;
 }
-
-
-

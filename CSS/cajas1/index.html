@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Ejercicio con cajas</title>
+        <!-- 
+        #####################
+        #EJERCICIO COMPLETO.#
+        #####################
+        (HECHO) 1. Crear un documento HTML vinculado al CSS.
+        (HECHO) 2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL, CABECERA, BARRA LATERAL, SECCIÓN DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENIDO PRINCIPAL, y un FOOTER.
+        (hecho) 3. Todo el contenido debe estar dentro del contenedor GENERAL y su ancho será de 1200px.
+        (Hecho) 4. El header debe ocupar el 100% del ancho y tener un texto grande centrado y también el contenedor debe estar centrado.
+        5. Menu debe tener los elementos uno al lado del otro. 
+        6.El contenido principal debe tener un ancho del 70%.
+        7.El contenido dentro del contenedor principal debe ser una cuadrícula con 4 líneas de 2 cajas.
+        8. La barra lateral debe tener un ancho del 30%
+        9. El footer debe tener un ancho del 100% del div que lo contiene y estar abajo del todo.
+        -->
+    </head>
+    <body>
+        <!-- Creo un contenedor donde voy a meter todo el contenido del ejercicio
+        Inicio del contenedor General -->
+        <div id="general">
+            <!-- Inicio de la cabecera de mi página -->
+            <header id="header">
+                <h1>Ejercicio con HTML y CSS - Víctor Luis</h1>
+                <!-- Creamos el menú de navegación -->
+                <nav id="menu">
+                    <!-- Creo unalista desordenada para crear el menú horizontal -->
+                    <ul>
+                        <!-- Creo 4 elementos para el menú -->
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Articulos</a></li>
+                        <li><a href="#">Categorías</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </nav>
+                <!-- Fin de la cabecera de mi página -->
+            </header>
+            <!-- Creo un contenedor para el contenido principal de la página -->
+            <section id="contenido">
+                <div class="contenido__caja">
+                    <h2>Caja 1</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 2</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 3</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 4</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 5</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 6</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 7</h2>
+                </div>
+                <div class="contenido__caja">
+                    <h2>Caja 8</h2>
+                </div>
+            </section>
+            <!-- La etiqueta aside representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento -->
+            <aside id="lateral">
+                <div class="contenido__caja">
+                    <h2>Elemento de la barra lateral</h2>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+            <!-- Inicio del footer -->
+            <footer id="footer">
+                <!-- Creo un encabezado de sexto nivel -->
+                <h6>Todos los derechos reservados &copy; Víctor Luis Glaría Abril</h6>
+                <!-- Fin del footer -->
+            </footer>
+            <!-- Fin del contenedor General -->
+        </div>
+    </body>
+</html>

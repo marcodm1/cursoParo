@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 40px;
+}
+
+.descripcionCurso {
+    border: solid black 3px;
+}
+
+h1 {
+    border: dashed white 4px;
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+.selectoresClase {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.amarillo {
+    background-color: rgb(255, 196, 0);
+}
+
+.final {
+    border: solid blue 5px;
+    padding: 15px;
+}
+
+button {
+    border: solid black 1px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 4px;
+    width: 15%;
+}
