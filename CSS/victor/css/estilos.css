@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.principal {
+    margin: 0 auto;
+    background-color:rgb(75, 113, 100) ;
+    width: 1000px;
+    padding: 30px;
+    border: solid black 3px;
+    border-radius: 15px;
+}
+
+ul,li {
+    list-style: none;
+}
+
+/* Establezco los estilos para la lista en general */
+ul.divImagenes {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+/* Establezco los estilos para cada elemento de la lista */
+.divImagenes li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background: #fff;
+}
+
+/* Establezco los estilos para las imágenes de la lista */
+.divImagenes li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul.divImagenes li:first-child {
+    /* Muestro el primer <li> */
+    opacity: 1;
+}
+
+ul.divImagenes li:target {
+    /* Muestro el <li> del enlace en el que pulsemos */
+    opacity: 1;
+}
+
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #bfb4aa;
+    padding: 10px;
+}

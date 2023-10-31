@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    margin-bottom: 100px;
+}
+
+.padre {
+    display: flex;
+    background-color: aquamarine;
+    border: solid black 2px;
+    margin-bottom: 100px;
+    height: 300px;
+}
+.padre div {
+    width: 120px;
+    height: 120px;
+    background-color: #3498db;
+    border: solid black 2px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+#hijo1 {
+    position: absolute;
+    top: 100px;
+    background-color: blueviolet;
+}
+#hijo2 {
+    position: sticky;
+    top: 0px;
+    background-color: green;
+}
+
+#hijo3 {
+    position: fixed;
+    left: 30px;
+    top: 400px;
+    background-color: brown;
+}
+
+#hijo4 {
+    position: relative;
+    left: 40px;
+    top: 30px;
+    background-color: orange;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+

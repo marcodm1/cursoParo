@@ -1,0 +1,46 @@
+#boton {
+    display: block;
+    padding: 20px;
+    background-color: greenyellow;
+    width: 200px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid green 5px;
+    border-radius: 10px;
+    transition: 5s ease;
+}
+
+#boton:hover {
+    background-color: green;
+    border: solid greenyellow 5px;
+
+}
+
+.cambiante {
+    background-image: url(../serio.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+.cambiante:hover {
+    transition: 3s ease;
+    background-image: url(../sonriendo.png);
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    100% {
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+}
+
+.cambiante {
+    animation: girar 2s linear infinite;
+}
