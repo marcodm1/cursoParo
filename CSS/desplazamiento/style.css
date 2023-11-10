@@ -1,0 +1,28 @@
+.movimiento {
+    width: 100px;
+    height: 100px;
+    background-image: url(unicornio1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@keyframes skatedesplazamiento {
+    0% {
+        margin-left: 0px;
+        width: 100px;
+    }
+    70% {
+        margin-left: 110%;
+    }
+    100% {
+        margin-left: 0%;
+        width: 50px;
+    }
+}
+.movimiento {
+    animation-name: skatedesplazamiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
