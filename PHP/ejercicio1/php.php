@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = $_POST["nombre"];
-    $email = $_POST["email"];
+    $nombre = $get["nombre"];
+    $email = $get["email"];
     
     $archivo = "datos.txt";
     $contenido = "Nombre: $nombre, Correo Electrónico: $email\n";

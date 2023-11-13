@@ -6,7 +6,7 @@
 <body>
     <h2>Formulario de Registro</h2>
 
-    <form method="post" action="procesar_formulario.php">
+    <form method="get" action="procesar_formulario.php">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" id="nombre"><br><br>
 
