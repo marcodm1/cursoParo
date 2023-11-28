@@ -1,9 +1,9 @@
 
-// function fMarco(dato) {
-//       console.log(dato);
-// }
+function saludo(dato) {
+      console.log(dato);
+}
 
-// fMarco("dato");
+saludo("Hola que");
 
 let num1 = 10;
 let num2 = 20;
@@ -17,7 +17,7 @@ console.log(suma2);
 
 function suma(v1, v2) {
       let resultado = v1 + v2;
-      
+
       return resultado;
 }
 
