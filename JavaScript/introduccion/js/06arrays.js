@@ -1,5 +1,6 @@
 // arrays
-// aunque son arrays, en js se les llama de tipo object
+// aunque son arrays, en js se les considera de tipo object
+// un array, es una variable cuyo contenido son varios datos en una lista separada por comas
 const tech = [10, 20, "hola", true];
 // const num1 = 123;
 // console.log(tech[2]); // los corchetes [] eligen la posición con la que queremos trabajar
@@ -68,3 +69,8 @@ console.log(pos0, pedro, pos2, vla);
 // si solo queremos extraer por ejemplo la ultima
 const [ , , , vladimir] = nombres;
 console.log(vladimir); 
+
+
+
+
+
