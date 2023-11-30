@@ -10,7 +10,7 @@ document.write(typeof cliente + "<br>"); //typeof dato te devuelve el tipo de da
 
 
 // boolean:
-
+ 
 const descuento = true;
 document.write(descuento + "<br>"); // muestra true
 document.write(typeof descuento + "<br>"); // devuelve boolean

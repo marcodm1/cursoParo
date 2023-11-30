@@ -1,5 +1,3 @@
-
-
 const formulario = document.querySelector('#formulario');
 
 formulario.addEventListener('submit', evento => {
@@ -9,14 +7,10 @@ formulario.addEventListener('submit', evento => {
 
       const nombre = document.querySelector('.nombre').value;
       const pass = document.querySelector('.password').value;
-      console.log(nombre);
-      console.log(pass);
 
       if (nombre === '' || pass === '') {
-            console.log("Todos los campos necesarios");
+            console.log("Todos los campos son necesarios");
       } else {
             console.log("Todos los campos rellenados, Enviando");
       }
-
-      console.log('Enviaste el formulario');
 })

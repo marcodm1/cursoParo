@@ -74,12 +74,8 @@ const garaje = true;
 coches > motos ? console.log("Mas coches") : console.log("Mas motos"); // mas motos
 
 coches < motos ? 
-      console.log("Mas coches") : 
-      garaje ? 
-            console.log("Tiene garaje") : // Tiene garaje
-            console.log("No tiene garaje"); 
+   console.log("Menos coches") : 
+   garaje ? 
+      console.log("Tiene garaje") : // Tiene garaje
+      console.log("No tiene garaje"); 
 
-// es una forma sencilla de hacer pruebas y que siempre se cumpla la condición
-if (true) {
-
-}

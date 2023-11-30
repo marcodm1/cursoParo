@@ -1,4 +1,4 @@
-// arropw function
+// arrow function
 const suma = () => {
       return 3 + 2;
 }

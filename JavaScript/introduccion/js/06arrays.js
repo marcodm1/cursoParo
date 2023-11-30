@@ -4,11 +4,11 @@
 const tech = [10, 20, "hola", true];
 // const num1 = 123;
 // console.log(tech[2]); // los corchetes [] eligen la posición con la que queremos trabajar
-console.table(tech);
+// console.table(tech);
 // console.log(tech.length); // método .length devuelve el tamaño
 // console.log("letra".length); // del string
 // console.log(num1.length); // devuelve undefined porque no puede el tamaño de un number.
-// console.log(tech.toString()); // mimprime el array 10,20,hola,true
+// console.log(tech.toString()); // imprime el array 10,20,hola,true
 
 
 // Añadir elementos de la manera antigua
